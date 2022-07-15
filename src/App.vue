@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
+    <Hero/>
     <FooterMain/>
   
 
@@ -11,6 +12,7 @@
 <script>
 import HeaderComp from './components/HeaderComp.vue'
 import FooterMain from './components/FooterMain.vue'
+import Hero from './components/Hero.vue'
 
 
 
@@ -18,6 +20,7 @@ export default {
   name: 'App',
   components: {
     HeaderComp,
+    Hero,
     FooterMain,
   }
 }
@@ -30,9 +33,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  max-width: 1000px;
-  margin:0 auto;
+  color:white;
+ 
 }
 </style>

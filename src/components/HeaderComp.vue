@@ -1,5 +1,5 @@
 <template>
-  <header class="container">
+  <header class="container-lg">
     <div class="row justfy-content-between">
         <div class="col-2">
             <img src="../assets/img/dc-logo.png" alt="DC Logo">
@@ -40,7 +40,7 @@ export default {
 @import '../assets/style/variables.scss'; 
 
 header{
-    
+    padding: 1rem;
     img{
         height: 100px;
     }
