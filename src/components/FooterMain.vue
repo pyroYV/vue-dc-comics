@@ -1,12 +1,18 @@
 <template>
   <DIV>
-    CIAO
+    <FooterList/>
   </DIV>
 </template>
 
 <script>
-export default {
+import FooterList from './FooterList.vue'
+import FooterSocials from './FooterSocials.vue'
 
+export default {
+    components: {
+    FooterList,
+    FooterSocials
+  }
 }
 </script>
 

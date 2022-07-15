@@ -1,9 +1,9 @@
 <template>
   <div id="app">
+    <HeaderComp/>
+    <FooterMain/>
+  
 
-    <FooterMain>
-      <FooterList/>
-    </FooterMain>
       
   </div>
 </template>
@@ -11,25 +11,28 @@
 <script>
 import HeaderComp from './components/HeaderComp.vue'
 import FooterMain from './components/FooterMain.vue'
-import FooterList from './components/FooterList.vue'
+
+
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
     FooterMain,
-    FooterList
   }
 }
 </script>
 
 <style lang="scss">
+@import "~bootstrap/scss/bootstrap";
+@import "~assets/style/variables.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  max-width: 1000px;
+  margin:0 auto;
 }
 </style>

@@ -2,7 +2,9 @@
   <div>
     <ul>
         <li>ao</li>
-        <li></li>
+        <li>
+            ao
+        </li>
     </ul>
   </div>
 </template>
