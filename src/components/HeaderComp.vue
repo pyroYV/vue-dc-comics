@@ -20,24 +20,55 @@ export default {
     data() {
         return {
             headerNav: [
-                'CHARACTERS',
-                'COMICS',
-                'MOVIES',
-                'TV',
-                'GAMES',
-                'COLLECTIBLES',
-                'VIDEOS',
-                'FANS',
-                'NEWS',
-                'SHOP'
-            ]
-        }
+                            {
+                        text: "Characters",
+                        url: "#"
+                        },
+                            {
+                        text: "Comics",
+                        url: "#"
+                        },
+                            {
+                        text: "Movies",
+                        url: "#"
+                        },
+                            {
+                        text: "TV",
+                        url: "#"
+                        },
+                            {
+                        text: "Games",
+                        url: "#"
+                        },
+                            {
+                        text: "Collectibles",
+                        url: "#"
+                        },
+                            {
+                        text: "Videos",
+                        url: "#"
+                        },
+                            {
+                        text: "Fans",
+                        url: "#"
+                        },
+                            {
+                        text: "News",
+                        url: "#"
+                        },
+                            {
+                        text: "Shop",
+                        url: "#"
+                        }
+                    ],
+            }
     },
 }
 </script>
 
 <style lang='scss'>
 @import '../assets/style/variables.scss'; 
+@import '../assets/style/global.scss';
 
 header{
     padding: 1rem;
@@ -49,7 +80,6 @@ header{
             display: flex;
             align-items: center;
             justify-content: center;
-            list-style: none;
             li{
                 display: inline-block;
                 padding: 1rem;
@@ -60,9 +90,7 @@ header{
                     &:hover{
                     border-bottom:1px solid $brand-color
                 }
-                a{
-                    text-decoration:none;
-                }
+
             }
         }
     }
