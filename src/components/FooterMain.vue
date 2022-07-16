@@ -23,6 +23,8 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     max-height: 450px;
+    padding-left:50px;
+
 }
 
 </style>
