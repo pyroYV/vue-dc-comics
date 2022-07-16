@@ -144,13 +144,16 @@
 
 
         #wrapper {
-            max-width: 600px;
+            max-width: 400px;
             display: flex;
             align-items: flex-start;
-            max-height: 450px;
+            max-height: 400px;
             flex-flow:column wrap;
+            font-size: .7rem;
+            padding: 2rem 0;
             h3{
                 padding-left:30px;
+                font-size: 1.3rem;
             }
         }
 </style>
