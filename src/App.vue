@@ -3,6 +3,7 @@
     <HeaderComp/>
     <Hero/>
     <FooterMain/>
+    <FooterSocials/>
   
 
       
@@ -13,6 +14,7 @@
 import HeaderComp from './components/HeaderComp.vue'
 import FooterMain from './components/FooterMain.vue'
 import Hero from './components/Hero.vue'
+import FooterSocials from './components/FooterSocials.vue'
 
 
 
@@ -22,6 +24,7 @@ export default {
     HeaderComp,
     Hero,
     FooterMain,
+    FooterSocials,
   }
 }
 </script>
