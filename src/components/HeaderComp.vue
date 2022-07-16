@@ -7,7 +7,7 @@
     <nav class="d-flex col-6">
         <ul>
             <li v-for="(link, index) in headerNav" :key="index" >
-                <a href="">{{link}}</a>
+                <a href="link.url">{{link.text}}</a>
             </li>
         </ul>
     </nav>

@@ -1,7 +1,7 @@
 <template>
-  <DIV>
+  <footer>
     <FooterList/>
-  </DIV>
+  </footer>
 </template>
 
 <script>
@@ -16,6 +16,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+footer{
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 450px;
+}
 
 </style>

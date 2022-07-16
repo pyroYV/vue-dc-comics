@@ -4,8 +4,8 @@
         <div class="" v-for="(category, index) in categories" :key="index">
             <h3>{{category.text}}</h3>
             <ul class="">
-                <li v-for="(elemento, i) in category.items" :key="i">
-                    <a href="">{{elemento.text}}</a>
+                <li v-for="(element, i) in category.items" :key="i">
+                    <a :href="element.url">{{element.text}}</a>
                 </li>
             </ul>
         </div>
@@ -147,23 +147,18 @@ export default {
 
 <style lang='scss' scoped>
 @import '../assets/style/variables.scss'; 
+@import '../assets/style/global.scss';
+
 
 #wrapper{
-    background-image: url(../assets/img/footer-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: 450px;
-    
     .container{
-        width: 50%;
-        
+        overflow: auto;        
         .row{
             max-height: 450px;
             ul{
                 padding: 0;
                 margin:0;
-
+                
                 }
             }
         }
