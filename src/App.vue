@@ -2,6 +2,7 @@
   <div id="app">
     <HeaderComp/>
     <Hero/>
+    <HeroNav/>
     <FooterMain/>
     <FooterSocials/>
     
@@ -15,6 +16,7 @@ import HeaderComp from './components/HeaderComp.vue'
 import FooterMain from './components/FooterMain.vue'
 import Hero from './components/Hero.vue'
 import FooterSocials from './components/FooterSocials.vue'
+import HeroNav from './components/HeroNav.vue'
 
 
 
@@ -25,6 +27,7 @@ export default {
     Hero,
     FooterMain,
     FooterSocials,
+    HeroNav,
   }
 }
 </script>
