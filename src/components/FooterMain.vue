@@ -1,9 +1,11 @@
 <template>
   <footer>
+    <div class="container-lg">
     <FooterList/>
-    <div class="position-absolute" id="logo-bg">
-    <img src="../assets/img/dc-logo-bg.png" alt="dclogo">
-    </div>
+      <div class="position-absolute" id="logo-bg">
+      <img src="../assets/img/dc-logo-bg.png" alt="dclogo">
+      </div>
+      </div>
   </footer>
 </template>
 
@@ -25,7 +27,6 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     max-height: 400px;
-    padding-left:50px;
     position:relative;
       overflow: hidden;
     #logo-bg{
