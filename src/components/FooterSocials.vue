@@ -1,13 +1,13 @@
 <template>
-  <div id="footer-social">
+  <div id="footerS">
     <div class="container-lg">
       <div class="row justify-content-between align-items-center">
         <div class="col-2 ">
-          bottone qui
+          <a class="sign-up-btn" href="#">SIGN-UP NOW</a>
         </div>
-        <div class="col-4 d-flex flex-row align-items-center">
-          <span>Follow us!</span>
-          <ul class="d-flex align-items-center pt-1">
+        <div id="socials-right" class="col-4 d-flex flex-row align-items-center p-4">
+          <h5>Follow us!</h5>
+          <ul class="d-flex align-items-center">
             <li>
               <a href="#">
                 <img src="../assets/img/footer-facebook.png" alt="">
@@ -47,14 +47,35 @@ export default {
 </script>
 
 <style leng="scss" scoped>
-  @import '../assets/style/variables.scss';
+@import '../assets/style/variables.scss';
 
-#footer-social{
+
+#footerS{
 background-color: #303030;
-
+ 
 
 };
+#socials-right{
 
 
 
+  }
+ul{
+  padding:0;
+  margin: 0;
+ 
+}
+
+h5{
+  color: #0c7cec;
+}
+li{
+  margin-left:1rem;
+}
+.sign-up-btn{
+  padding: 1rem;
+  border: 2px solid #0c7cec;
+  color: white;
+  text-decoration: none;
+}
 </style>

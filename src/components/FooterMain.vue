@@ -1,12 +1,12 @@
 <template>
-  <footer>
+  <div id="footer-main">
     <div class="container-lg">
     <FooterList/>
       <div class="position-absolute" id="logo-bg">
       <img src="../assets/img/dc-logo-bg.png" alt="dclogo">
       </div>
       </div>
-  </footer>
+  </div>
 </template>
 
 <script>
@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss" scoped>
   
-footer{
+#footer-main{
     background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
     background-position: center;

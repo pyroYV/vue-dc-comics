@@ -152,8 +152,11 @@
             font-size: .7rem;
             padding: 2rem 0;
             h3{
-                padding-left:30px;
+                
                 font-size: 1.3rem;
+            }
+            ul{
+                padding: 0;
             }
         }
 </style>
