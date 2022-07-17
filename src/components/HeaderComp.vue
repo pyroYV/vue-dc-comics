@@ -1,9 +1,10 @@
 <template>
     <header class="container-lg">
-        <div class="row justfy-content-between">
+        <div class="row d-flex justfy-content-between">
             <div class="col-2">
                 <img src="../assets/img/dc-logo.png" alt="DC Logo">
             </div>
+            <div class="col-4"></div>
             <nav class="d-flex col-6">
                 <ul>
                     <li v-for="(link, index) in headerNav" :key="index">
@@ -70,10 +71,11 @@
     @import '../assets/style/global.scss';
 
     header {
-        padding: 1rem;
+
 
         img {
             height: 100px;
+            padding: 5px;
         }
 
         nav {
@@ -81,17 +83,20 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin: 0;
 
                 li {
                     display: inline-block;
                     padding: 1rem;
-                    height: 100%;
+                    height: 100px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-
+                    a{
+                        text-decoration: none;
+                    }
                     &:hover {
-                        border-bottom: 1px solid $brand-color;
+                        border-bottom: 4px solid $brand-color;
                     }
 
                 }
