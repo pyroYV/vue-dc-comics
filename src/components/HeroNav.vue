@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="p-4 container-lg d-flex justify-content-around">
+    <div class="p-4 container-lg d-flex justify-content-between">
         <div class="nav-item d-flex align-items-center">
           <a href="#">
             <img src="../assets/img/buy-comics-digital-comics.png" alt="buyDigitalComics">
@@ -54,6 +54,9 @@ export default {
       img{
         height: 50px;
         margin-right: 10px;
+      }
+      svg{
+        height: 50px;
       }
       a{
         color: white;

@@ -55,11 +55,7 @@ background-color: #303030;
  
 
 };
-#socials-right{
 
-
-
-  }
 ul{
   padding:0;
   margin: 0;

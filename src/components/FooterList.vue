@@ -157,6 +157,11 @@
             }
             ul{
                 padding: 0;
+                li{
+                    a{
+                        color:darkgrey
+                    }
+                }
             }
         }
 </style>
