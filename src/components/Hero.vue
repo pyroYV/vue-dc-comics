@@ -1,7 +1,11 @@
 <template>
   <div class="wrapper">
+      <div class="jumbotron">
+        <img src="../assets/img/jumbotron.jpg" alt="">
+      </div>
     <div class="container-lg">
-      <div class="comics row">
+      <div class="comics row position-relative p-3">
+        <div class="current-series text-center">Current Series</div>
         <SingleComic class="col-2" v-for="(item, index) in comicsThumbs" :key="index"
         :thumb="item.thumb"
         :price="item.price" 
@@ -96,6 +100,7 @@ export default {
             }
           ]
         }
+        
   },
 }
 </script>
@@ -103,9 +108,27 @@ export default {
 <style lang='scss' scoped>
 @import '../assets/style/variables.scss'; 
 
-.wrapper{
-    background-color: $bg-color-main;
 
+.wrapper{
+  background-color: $bg-color-main;
+  .jumbotron{
+    object-fit: contain;
+    img{
+      height: 80vh;
+      width: 100%;
+    }
+  }
+
+  .current-series{
+    background-color: $brand-color;
+    color: white;
+    text-transform: uppercase;
+    padding: .8rem;
+    position: absolute;
+    width: 180px;
+    top:-20px;
+    left: 50px;
+  }
 }
 
 </style>
