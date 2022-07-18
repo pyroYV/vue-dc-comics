@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <div class="container-lg">
-      <div class="comics">
-        <SingleComic v-for="(item, index) in comicsThumbs" :key="index"
+      <div class="comics row">
+        <SingleComic class="col-2" v-for="(item, index) in comicsThumbs" :key="index"
         :thumb="item.thumb"
         :price="item.price" 
         :series="item.series"
